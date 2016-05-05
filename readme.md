@@ -11,6 +11,7 @@ Marching tetrahedral algorithm [2] was used for creating iso-surface for the obj
 [1] William E Lorensen and Harvey E Cline. Marching cubes: A high resolution 3d
 surface construction algorithm. In ACM siggraph computer graphics, volume 21,
 pages 163–169. ACM, 1987.
+
 [2] Graham M Treece, Richard W Prager, and Andrew H Gee. Regularised marching
 tetrahedra: improved iso-surface extraction. Computers & Graphics, 23(4):583–598,
 1999.

@@ -7,6 +7,9 @@ Marching tetrahedral algorithm [2] was used for creating iso-surface for the obj
 * Right now it is $N^3$ order algorithm, as iterations are done over the volume. Iterations need to be done only at the surface to get a $N^2$ order algorithm.
 * Only a single loop over a grid on the bounding box is needed to determine the mesh vertices and faces. Memory complexity is $O(1)$ apart from the memory used for storing the mesh vertices.
 
+# Libraries used
+* Code was written in C++ with the help of digital geometry processing [library](https://github.com/sidch/DGP) provided by Siddhartha.
+
 # References
 [1] William E Lorensen and Harvey E Cline. Marching cubes: A high resolution 3d
 surface construction algorithm. In ACM siggraph computer graphics, volume 21,
